@@ -5,8 +5,6 @@ import Image from 'next/image'
 import SideNav from './sideNav'
 
 const Layout = ({children}) => {
-
-    const router = useRouter();
     return (
         <>
             <div className='flex'>
