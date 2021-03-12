@@ -12,4 +12,46 @@ h1.overviewcap {
 }
 p.overviewpara {
     color: white;
+    margin-bottom: 35px;
+}
+.taskoverview {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.taskbox{
+    background-color: #F0F7F7;
+    padding: 1em 2em;
+    border-radius: 20px;
+}
+img.taskoverimg {
+    width: 60px;
+    float: left;
+}
+button.buttonoverview {
+    float: right;
+    color: #5B99D2;
+    padding-bottom: 1px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+    font-weight: bold;
+}
+.tasktext {
+    float: left;
+}
+h2.taskhead {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h3.taskhead2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+p.paragr {
+    font-size: 14px;
 }
