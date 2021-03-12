@@ -5,3 +5,11 @@
 button.sign-out:hover{
     border: none;
 }
+h1.overviewcap {
+    font-weight: bold;
+    font-size: 53px;
+    color: white;
+}
+p.overviewpara {
+    color: white;
+}
