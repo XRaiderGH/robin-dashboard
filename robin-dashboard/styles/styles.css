@@ -50,12 +50,27 @@ button.buttonoverview2 {
     border: solid 3px #5B99D2;
     border-radius: 250px;
 }
+button.buttonoverview:hover{
+    color: white;
+    background-color: #5B99D2;
+}
+button.buttonoverview2:hover{
+    color: white;
+    background-color: #5B99D2;
+    border: solid 3px white;
+}
 .tasktext {
     margin-bottom: 20px;
 
 }
 h2.taskhead {
     font-size: 24px;
+    margin-bottom: 20px;
+}
+h2.taskheading {
+    font-size: 24px;
+}
+p.taskparagr {
     margin-bottom: 20px;
 }
 h3.taskhead2 {
