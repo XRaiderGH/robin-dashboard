@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="logo"><Image src="/assets/logo.svg" width='130' height='66' alt="Logo"/>
                 </div>
                 <div className="flex flex-col justify-center">
-                    <button className="sign-out text-xl text-white border-2 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:bg-blue-500">
+                    <button className="hover-blue font-medium text-xl text-white border-2 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out">
                         Sign out
                     </button>
                 </div>
