@@ -1,9 +1,15 @@
 import Link from "./ActiveLink";
 import Image from "next/image";
+import useRouter from 'next/router'
 
-const SideNav = () => {
+const SideNav = (props) => {
+
+
+    let classnames = props.className;
+
+
     return(
-        <div className="sideNav">
+        <div className={classnames}>
             <div className="flex flex-col text-xl mt-8 ml-8 mb-8">
                 <span>Logged in as,</span>
                 <span>Sjoerd Roelvink</span>
