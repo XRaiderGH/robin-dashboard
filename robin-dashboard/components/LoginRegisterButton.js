@@ -1,5 +1,6 @@
 import React from 'react'
 import {useRouter} from 'next/router'
+import { motion } from 'framer-motion'
 
 const LoginRegisterButton = ({text}) => {
 
@@ -8,21 +9,24 @@ const LoginRegisterButton = ({text}) => {
 
     const redirect = () => {
         if (router.pathname === '/register') {
-            router.replace('/login');
+            router.push('/login');
         } else if (router.pathname === '/login') {
-            router.replace('/register');
+            router.push('/register');
         }
     };
 
 
     return (
-        <button
+        <motion.button
+            initial={{rotateX: -90, opacity: 0}}
+            animate={{rotateX: 0, opacity: 1, transition: {duration: 0.3, }}}
+            exit={{rotateX: 90, opacity: 0, transition: {duration: 0.3, }}}
             onClick={() => {
                 redirect()
             }}
-            className="hover-blue font-bold text-xl text-white border-2 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out">
+            className="hover-blue font-bold text-xl text-white border-2 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out focus:outline-none">
             {text}
-        </button>
+        </motion.button>
     )
 }
 

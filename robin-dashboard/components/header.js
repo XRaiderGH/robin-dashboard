@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const Header = () => {
     return (
         <div className="header mt-7 mb-7">
