@@ -4,6 +4,7 @@ import Link from './ActiveLink'
 import Image from 'next/image'
 import SideNav from './sideNav'
 import { useState, useEffect } from 'react';
+import HeaderOutside from "./header-outside";
 
 const Layout = ({children}) => {
 
@@ -12,14 +13,14 @@ const Layout = ({children}) => {
 
     console.log(router.pathname);
 
-    const [classname, setClassname] = useState('block');
+    const [InDash, setInDash] = useState(false);
 
     useEffect(() => {
         if(router.pathname === '/login' || router.pathname === '/register'){
-            setClassname('hidden')
+            setInDash(false);
         }
         if(router.pathname === '/'){
-            setClassname('block')
+            setInDash(true);
         }
 
     }, []);
@@ -29,11 +30,12 @@ const Layout = ({children}) => {
     return (
         <>
             <div className='flex'>
-                <SideNav className={classname}/>
+                {InDash ? ( <SideNav/>) : ''}
                 <main
                     className='bg-gradient-to-br from-green-500 to-blue-400 from h-100 w-full flex flex-row justify-center'>
                     <div className="wrap sm:w-9/10 w-80">
-                        <Header/>
+                        {InDash ? ( <Header/>) : <HeaderOutside/>}
+
                         <hr className='opacity-20'/>
                         <div className="body mt-7">
                             {children}

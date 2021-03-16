@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "framer-motion": "^3.10.5",
     "next": "10.0.8",
     "react": "next",
     "react-dom": "next",
