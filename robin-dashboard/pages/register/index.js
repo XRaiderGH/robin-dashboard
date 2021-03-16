@@ -25,7 +25,11 @@ export default function Register() {
                             animate={{rotateX: 0, opacity: 1, transition: {duration: 0.3, delay: 0.3}}}
                             exit={{rotateX: 90, opacity: 0, transition: {duration: 0.3, delay: 0.3}}}
                             className='text-8xl mb-5'>Sign up</motion.span>
-                        <span className='text-7xl mb-5'>Start helping others</span>
+                        <motion.span
+                            initial={{x: 60, opacity: 0, transition: {duration: 0.6}}}
+                            animate={{x: 0, opacity: 1, transition: {duration: 0.3, delay: 0.3}}}
+                            exit={{x: 60, opacity: 0, transition: {duration: 0.3, }}}
+                            className='text-7xl mb-5'>Start helping others</motion.span>
                         <motion.span
                             initial={{rotateX: -90, opacity: 0}}
                             animate={{rotateX: 0, opacity: 1, transition: {duration: 0.3, delay: 0.3}}}
@@ -37,7 +41,7 @@ export default function Register() {
 
 
                 <motion.div
-                    initial={{x: 60, opacity: 0}}
+                    initial={{x: 60, opacity: 0, transition: {duration: 0.6}}}
                     animate={{x: 0, opacity: 1, transition: {duration: 0.3, }}}
                     exit={{x: 60, opacity: 0, transition: {duration: 0.3, }}}
                     className="right flex flex-col justify-center w-3/6">
@@ -68,7 +72,7 @@ export default function Register() {
                             </label>
 
                             <span className="flex flex-row justify-center">
-                                <input value='Sign up' className='hover-blue font-bold text-xl text-blue-500 border-2 border-blue-500 rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:text-white' type="submit"/>
+                                <input value='Sign up' className='hover-blue bg-transparent font-bold text-xl text-blue-500 border-2 border-blue-500 rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:text-white' type="submit"/>
                             </span>
                         </form>
                     </div>
