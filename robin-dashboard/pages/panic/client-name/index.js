@@ -62,7 +62,7 @@ const index = () => {
 
                 <div className="bottom flex flex-row">
                     <label htmlFor='option-select'
-                           className="hover-blue-alt w-56 flex flex-row justify-center  text-xl text-blue-500 border-4 border-blue-500 px-2 rounded-3xl h-50 py-1 transition duration-200 ease-in-out bg-transparent hover:text-white">
+                           className="hover-blue-alt w-56 flex flex-row justify-center  text-xl text-blue-500 border-3 border-blue-500 px-2 rounded-3xl h-50 py-1 transition duration-200 ease-in-out bg-transparent hover:text-white">
                         <select
                             onChange={event => {
                                 event.preventDefault();

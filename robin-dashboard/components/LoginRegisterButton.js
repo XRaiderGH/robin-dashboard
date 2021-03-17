@@ -24,7 +24,7 @@ const LoginRegisterButton = ({text}) => {
             onClick={() => {
                 redirect()
             }}
-            className="hover-blue font-bold text-xl text-white border-2 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out focus:outline-none">
+            className="hover-blue font-bold text-xl text-white border-3 border-white rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out focus:outline-none">
             {text}
         </motion.button>
     )

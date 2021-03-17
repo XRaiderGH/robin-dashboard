@@ -14,7 +14,7 @@ const HeaderOutside = () => {
                 </div>
                 <div className="flex flex-col justify-center">
                     <label htmlFor='language-select'
-                        className="hover-blue flex flex-row justify-center  text-xl text-white border-2 border-white px-2 rounded-3xl h-50 py-1 transition duration-200 ease-in-out bg-transparent">
+                        className="hover-blue flex flex-row justify-center  text-xl text-white border-3 border-white px-2 rounded-3xl h-50 py-1 transition duration-200 ease-in-out bg-transparent">
                         <select className='bg-transparent font-bold w-32 px-4 focus:outline-none' name="language-select" id="language-select">
                             <option value="English">English</option>
                         </select>

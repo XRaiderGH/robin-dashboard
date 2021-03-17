@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import LoginRegisterButton from "../../components/LoginRegisterButton";
 import { motion } from 'framer-motion'
-
+import Link from 'next/link'
 export default function Register() {
 
 
@@ -29,7 +29,7 @@ export default function Register() {
                         initial={{rotateX: -90, opacity: 0}}
                         animate={{rotateX: 0, opacity: 1, transition: {duration: 0.3, delay: 0.3}}}
                         exit={{rotateX: 90, opacity: 0, transition: {duration: 0.3, delay: 0.3}}}
-                        className='font-normal text-lg mb-5'>Do you want to create an account?</motion.span>
+                        className='font-normal text-xl mb-5'>Do you want to create an account?</motion.span>
                     <LoginRegisterButton text='Sign up'/>
                 </h1>
             </motion.div>
@@ -40,9 +40,9 @@ export default function Register() {
                 exit={{x: 100, opacity: 0, transition: {duration: 0.3, }}}
                 className="right flex flex-col justify-center w-3/6">
                 <div className="flex flex-row justify-center" >
-                    <Image src='/assets/MenIconLogin.svg' width='135px' height='135px'/>
+                    <Image src='/assets/MenIconLogin.svg' width='170px' height='170px'/>
                 </div>
-                <div className="container bg-white rounded-3xl px-10 pt-16 pb-10 shadow-lg -mt-16">
+                <div className="bg-white rounded-3xl px-16 pt-36 pb-10 shadow-lg -mt-20 shadow-custom">
 
                     <form action="">
                         <label htmlFor="name" className='flex flex-col pb-10'>
@@ -50,13 +50,19 @@ export default function Register() {
                             <input id='name' className='border-b-2 border-black py-2 focus:outline-none' type="email" placeholder='Enter your username or email adress'/>
                         </label>
 
-                        <label htmlFor="name" className='flex flex-col pb-10'>
+                        <label htmlFor="name" className='flex flex-col pb-4'>
                             <span className='font-bold text-xl'>Password</span>
                             <input id='name' className='border-b-2 border-black py-2 focus:outline-none' type="password" placeholder='Enter your password'/>
                         </label>
 
+                        <span className='flex flex-row justify-end font-semibold text-lg mb-10'>
+                            <Link href='/forgot-password'>Forgot password?</Link>
+                        </span>
+
+
                         <span className="flex flex-row justify-center">
-                                <input value='Sign in' className='hover-blue font-bold text-xl text-blue-500 border-2 border-blue-500 bg-transparent rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:text-white' type="submit"/>
+                               <a href={'/'} className='hover-blue bg-transparent font-bold text-xl text-blue-500 border-3 border-blue-500 rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:text-white text-center flex flex-col justify-center'>Login</a>
+                            {/*<input value='Sign up' className='hover-blue bg-transparent font-bold text-xl text-blue-500 border-3 border-blue-500 rounded-3xl w-186 h-50 py-1 transition duration-200 ease-in-out hover:text-white' type="submit"/>*/}
                             </span>
                     </form>
                 </div>
