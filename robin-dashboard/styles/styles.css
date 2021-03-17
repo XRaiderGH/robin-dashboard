@@ -18,19 +18,26 @@ p.overviewpara {
     display: grid;
     color: black;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 60px;
 }
-.taskbox{
+.taskbox1{
+    background-color: #F0F7F7;
+    padding: 1em 2em;
+    border-radius: 20px;
+    height: 70%;
+}
+.taskbox2{
     background-color: #F0F7F7;
     padding: 1em 2em;
     border-radius: 20px;
 }
 img.taskoverimg {
-    width: 60px;
-    float: left;
+   margin-right: 20px;
+   float: left;
 }
 button.buttonoverview {
     float: right;
+    font-size: 20px;
     margin-bottom: 40px;
     color: #5B99D2;
     padding-bottom: 1px;
@@ -40,7 +47,6 @@ button.buttonoverview {
     padding-top: 1px;
     border-radius: 25px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
-    font-weight: bold;
 }
 button.buttonoverview2 {
     color: #5B99D2;
@@ -74,11 +80,10 @@ p.taskparagr {
     margin-bottom: 20px;
 }
 h3.taskhead2 {
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
 }
 p.paragr {
-    font-size: 14px;
+    font-size: 15px;
 }
 .tasksinfor {
     float: left;
