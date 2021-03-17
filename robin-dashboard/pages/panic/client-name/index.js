@@ -15,8 +15,8 @@ const index = () => {
     const options =
         [
             "The client pressing the button will call you directly from the app",
-            "The client pressing the button can typ an email and send it to you",
-            "The client pressing the button can typ an message and send it to you"
+            "The client pressing the button can write an email and send it to you",
+            "The client pressing the button can write a message and send it to you"
         ]
     ;
 
