@@ -5,6 +5,7 @@ import Image from 'next/image'
 import SideNav from './sideNav'
 import { useState, useEffect } from 'react';
 import HeaderOutside from "./header-outside";
+import { motion } from 'framer-motion'
 
 const Layout = ({children}) => {
 
@@ -18,8 +19,7 @@ const Layout = ({children}) => {
     useEffect(() => {
         if(router.pathname === '/login' || router.pathname === '/register'){
             setInDash(false);
-        }
-        if(router.pathname === '/'){
+        } else {
             setInDash(true);
         }
 

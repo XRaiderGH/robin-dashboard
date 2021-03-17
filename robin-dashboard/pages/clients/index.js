@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from "../../components/ActiveLink";
 
-export default function index() {
+const clients = () => {
     return (
         <div className='container w-4/6 bg-white rounded-3xl shadow-custom px-12 py-10 bg-opacity-90'>
             <div className="top flex flex-row justify-between pb-10">
@@ -19,7 +19,7 @@ export default function index() {
 
                     <Link href={'/clients/client'}>
                         <div
-                            className="client rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
+                            className="client bg-white rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
                             <Image src='/assets/Womenicon.svg' width='25.28' height='35'/>
                             <span className='ml-7 flex-1 flex flex-col justify-center text-lg'>Marryrose L Salas</span>
                             <Image src='/assets/Path 117.svg' width='15' height='15'/>
@@ -29,7 +29,7 @@ export default function index() {
 
                     <Link href={'/clients/client'}>
                         <div
-                            className="client rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
+                            className="client bg-white rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
                             <Image src='/assets/Menicon.svg' width='25.28' height='35'/>
                             <span className='ml-7 flex-1 flex flex-col justify-center text-lg'>William Whatley</span>
                             <Image src='/assets/Path 117.svg' width='15' height='15'/>
@@ -39,7 +39,7 @@ export default function index() {
 
                     <Link href={'/clients/client'}>
                         <div
-                            className="client rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
+                            className="client bg-white rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
                             <Image src='/assets/Menicon.svg' width='25.28' height='35'/>
                             <span className='ml-7 flex-1 flex flex-col justify-center text-lg'>Roy Gleason</span>
                             <Image src='/assets/Path 117.svg' width='15' height='15'/>
@@ -48,7 +48,7 @@ export default function index() {
 
                     <Link href={'/clients/client'}>
                         <div
-                            className="client rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
+                            className="client bg-white rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
                             <Image src='/assets/Womenicon.svg' width='25.28' height='35'/>
                             <span className='ml-7 flex-1 flex flex-col justify-center text-lg'>Esther Dobson</span>
                             <Image src='/assets/Path 117.svg' width='15' height='15'/>
@@ -57,7 +57,7 @@ export default function index() {
 
                     <Link href={'/clients/client'}>
                         <div
-                            className="client rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
+                            className="client bg-white rounded-full shadow-custom px-5 py-3 flex justify-between cursor-pointer">
                             <Image src='/assets/Menicon.svg' width='25.28' height='35'/>
                             <span className='ml-7 flex-1 flex flex-col justify-center text-lg'>Kenneth Johnson</span>
                             <Image src='/assets/Path 117.svg' width='15' height='15'/>
@@ -70,3 +70,5 @@ export default function index() {
         </div>
     )
 }
+
+export default clients
