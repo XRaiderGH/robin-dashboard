@@ -37,15 +37,15 @@ const SideNav = (props) => {
                         <hr/>
                     </li>
 
-                    <li>
-                        <Link href={'/tasks'}>
-                            <a className='navItem block w-100 pl-7 py-8'>
-                                <Image src='/assets/tasks-solid (2).svg' width='29px' height='23px' alt=""/>
-                                <span className='ml-5'>Tasks</span>
-                            </a>
-                        </Link>
-                        <hr/>
-                    </li>
+                    {/*<li>*/}
+                    {/*    <Link href={'/tasks'}>*/}
+                    {/*        <a className='navItem block w-100 pl-7 py-8'>*/}
+                    {/*            <Image src='/assets/tasks-solid (2).svg' width='29px' height='23px' alt=""/>*/}
+                    {/*            <span className='ml-5'>Tasks</span>*/}
+                    {/*        </a>*/}
+                    {/*    </Link>*/}
+                    {/*    <hr/>*/}
+                    {/*</li>*/}
 
                     <li>
                         <Link href={'/panic'}>
