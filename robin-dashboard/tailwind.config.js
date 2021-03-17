@@ -23,7 +23,8 @@ module.exports = {
         'custom' : '0px 3px 6px #00000029'
       },
       borderWidth: {
-        '3' : '3px'
+        '3' : '3px',
+        '6' : '6px'
       },
     },
   },
