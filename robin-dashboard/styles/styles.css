@@ -2,9 +2,7 @@
     height: 100vh;
 }
 
-button.sign-out:hover{
-    border: none;
-}
+
 h1.overviewcap {
     font-weight: bold;
     font-size: 53px;
@@ -96,3 +94,24 @@ p.paragr {
 .buttondiv {
     text-align: center;
 }
+
+.h-100p{
+    height: 100%;
+}
+
+.hover-blue:hover{
+    border-color: rgba(91, 153, 210,100);
+    background-color: rgba(91, 153, 210,100);
+}
+
+.hover-blue-alt:hover{
+    border-color: rgba(91, 153, 210,100);
+    background-color: rgba(91, 153, 210,100);
+    color: white;
+}
+
+.hover-blue-alt:hover select{
+    color: white;
+}
+
+

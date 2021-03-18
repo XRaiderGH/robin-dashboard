@@ -18,7 +18,14 @@ module.exports = {
       },
       borderWidth: {
         '6' : '6px'
-      }
+      },
+      boxShadow: {
+        'custom' : '0px 3px 6px #00000029'
+      },
+      borderWidth: {
+        '3' : '3px',
+        '6' : '6px'
+      },
     },
   },
   variants: {

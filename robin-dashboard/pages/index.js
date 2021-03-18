@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
 
-
 export default function Home() {
+
   return (
-   <Layout>
+   <>
      <h1 className="overviewcap">Hi Sjoerd,</h1>
      <p className="overviewpara">There are 3 clients with expired tasks and 5 rapidly emerging tasks</p>
 
@@ -68,6 +68,6 @@ export default function Home() {
         
        </div>
      </div>
-   </Layout>
+   </>
   )
 }
