@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header mt-7 mb-7">
             <div className="flex flex-row">
-                <div className="logo flex-grow"><Image src="/assets/logo.svg" width='130' height='66' alt="Logo"/>
+                <div className="logo flex-grow"><Image src="/assets/logo-new-wit.svg" width='130' height='66' alt="Logo"/>
                 </div>
                 <div className="flex flex-col justify-center">
                     <label htmlFor='language-select'
