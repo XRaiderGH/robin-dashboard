@@ -2,6 +2,99 @@
     height: 100vh;
 }
 
+
+h1.overviewcap {
+    font-weight: bold;
+    font-size: 53px;
+    color: white;
+}
+p.overviewpara {
+    color: white;
+    margin-bottom: 35px;
+}
+.taskoverview {
+    display: grid;
+    color: black;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+.taskbox1{
+    background-color: #F0F7F7;
+    padding: 1em 2em;
+    border-radius: 20px;
+    height: 70%;
+}
+.taskbox2{
+    background-color: #F0F7F7;
+    padding: 1em 2em;
+    border-radius: 20px;
+}
+img.taskoverimg {
+   margin-right: 20px;
+   float: left;
+}
+button.buttonoverview {
+    float: right;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #5B99D2;
+    padding-bottom: 1px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    border-radius: 25px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
+}
+button.buttonoverview2 {
+    color: #5B99D2;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 60px;
+    border: solid 3px #5B99D2;
+    border-radius: 250px;
+}
+button.buttonoverview:hover{
+    color: white;
+    background-color: #5B99D2;
+}
+button.buttonoverview2:hover{
+    color: white;
+    background-color: #5B99D2;
+    border: solid 3px white;
+}
+.tasktext {
+    margin-bottom: 20px;
+
+}
+h2.taskhead {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+h2.taskheading {
+    font-size: 24px;
+}
+p.taskparagr {
+    margin-bottom: 20px;
+}
+h3.taskhead2 {
+    font-size: 20px;
+}
+p.paragr {
+    font-size: 15px;
+}
+.tasksinfor {
+    float: left;
+    width: 65%;
+}
+.tasksinfor2 {
+    width: 35%;
+    float: left;
+}
+.buttondiv {
+    text-align: center;
+}
+
 .h-100p{
     height: 100%;
 }
@@ -20,4 +113,5 @@
 .hover-blue-alt:hover select{
     color: white;
 }
+
 
