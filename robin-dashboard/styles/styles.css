@@ -46,6 +46,17 @@ button.buttonoverview {
     border-radius: 25px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
 }
+@media only screen and (max-width: 1615px) {
+    .tasksinfor {
+        float: left;
+        width: 60%;
+    }
+    .tasksinfor2 {
+        float: left;
+        width: 40%;
+    }
+}
+
 
 button.buttonoverview2 {
     color: #5B99D2;

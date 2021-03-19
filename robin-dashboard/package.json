@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "framer-motion": "^3.10.5",
+    "framer-motion": "^4.0.0",
     "next": "10.0.8",
     "react": "^0.0.0-825c3021f",
     "react-dom": "^0.0.0-825c3021f",
