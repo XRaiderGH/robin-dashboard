@@ -35,7 +35,7 @@ img.taskoverimg {
 }
 button.buttonoverview {
     float: right;
-    font-size: 20px;
+    font-size: 0.86em;
     margin-bottom: 40px;
     color: #5B99D2;
     padding-bottom: 1px;
@@ -46,9 +46,12 @@ button.buttonoverview {
     border-radius: 25px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 40%);
 }
+
+
+
 button.buttonoverview2 {
     color: #5B99D2;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     padding: 8px 60px;
     border: solid 3px #5B99D2;
@@ -78,10 +81,10 @@ p.taskparagr {
     margin-bottom: 20px;
 }
 h3.taskhead2 {
-    font-size: 20px;
+    font-size: 1em;
 }
 p.paragr {
-    font-size: 15px;
+    font-size: 0.8em;
 }
 .tasksinfor {
     float: left;
