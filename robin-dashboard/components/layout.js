@@ -22,7 +22,6 @@ const Layout = ({children}) => {
         } else {
             setInDash(true);
         }
-
     }, []);
 
 
